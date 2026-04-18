@@ -2,6 +2,8 @@
 
 AttentionX is an AI-powered platform designed to help creators, educators, and mentors repurpose their long-form video content into viral, high-impact snackable clips for TikTok, Reels, and Shorts.
 
+## Demo:https://drive.google.com/file/d/1nqebsQd2EFaajMKHpJkDWYqUyhA4W7yh/view?usp=sharing
+
 ## Features
 
 - **Emotional Peak Detection**: Uses Google Gemini 1.5 Flash to analyze video content, identifying high-energy or profound insights.
