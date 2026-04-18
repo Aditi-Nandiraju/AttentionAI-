@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #09090B;
+  --color-surface: #18181B;
+  --color-border: #27272A;
+  --color-primary: #6366F1;
+  --color-text-main: #FAFAFA;
+  --color-text-dim: #A1A1AA;
+  --color-accent: #10B981;
+  
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+:root {
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+}
+
+body {
+  @apply font-sans antialiased bg-bg text-text-main;
+}
+
+/* Custom scrollbar matching Sleek Interface */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-bg;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-border rounded-full;
+}
+
+.blur-header {
+  background: rgba(9, 9, 11, 0.8);
+  backdrop-filter: blur(8px);
+}
+
+.card-hover:hover {
+  border-color: var(--color-primary);
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: white;
+  @apply transition-all active:scale-[0.98] hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.btn-secondary {
+  background: var(--color-surface);
+  color: var(--color-text-main);
+  border: 1px solid var(--color-border);
+  @apply transition-all active:scale-[0.98] hover:bg-border;
+}
