@@ -23,8 +23,3 @@ AttentionX is an AI-powered platform designed to help creators, educators, and m
 3. **Review**: Browse the detected "Golden Nuggets" with AI reasoning.
 4. **Download**: Export your 9:16 vertical clips ready for social media.
 
-## Demo Video
-[Link to Demo Video on Google Drive](https://drive.google.com/drive/folders/your-link-here)
-
----
-Built for the AttentionX AI Hackathon.
